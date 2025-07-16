@@ -91,9 +91,7 @@ node app.js
   "phoneNumber": "1234567890"
 }
 ✅ **Sample Response**
-json
-Copy
-Edit
+
 {
   "contact": {
     "primaryContactId": 1,

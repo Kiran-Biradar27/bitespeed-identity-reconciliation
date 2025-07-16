@@ -45,6 +45,8 @@ bitespeed-identity-reconciliation/
 ├── package.json
 └── README.md
 
+---
+
 ##🛠️ **Setup Instructions**
 
 1. **Clone the Repo**
@@ -81,6 +83,7 @@ node app.js
 ---
 
 📮 ##**API Endpoint**
+
 **POST /identify**
 🔸 **Request Example**
 {

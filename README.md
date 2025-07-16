@@ -108,9 +108,9 @@ Use Postman or any API tool:
 
 - Method: POST
 
-URL: http://localhost:3000/identify
+- URL: http://localhost:3000/identify
 
-Body (JSON):
+- Body (JSON):
 {
   "email": "abc@example.com",
   "phoneNumber": "1234567890"
@@ -119,17 +119,17 @@ Body (JSON):
 ---
 
 🔄 **Business Logic Summary**
-No matching contact → Create primary
+- No matching contact → Create primary
 
-Match by email or phone → Create secondary
+- Match by email or phone → Create secondary
 
-Match by both → No new record
+- Match by both → No new record
 
 Always return:
 
--Oldest primary ID
--All emails and phone numbers
--List of secondary contact IDs
+  - Oldest primary ID
+  - All emails and phone numbers
+  - List of secondary contact IDs
 
 ---
 

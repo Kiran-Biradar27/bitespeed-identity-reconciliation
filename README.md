@@ -135,7 +135,7 @@ Always return:
 
 👨‍💻 **Author**
 **Kiran Biradar**
-Final Year Engineering Student | Full Stack Developer
-GitHub: Kiran-Biradar27
+- Final Year Engineering Student | Full Stack Developer
+- GitHub: Kiran-Biradar27
 
 

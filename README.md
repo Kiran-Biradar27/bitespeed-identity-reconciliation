@@ -47,7 +47,7 @@ bitespeed-identity-reconciliation/
 
 ---
 
-##🛠️ **Setup Instructions**
+## 🛠️ **Setup Instructions**
 
 1. **Clone the Repo**
 
@@ -82,7 +82,7 @@ node app.js
 
 ---
 
-📮 ##**API Endpoint**
+ ## 📮 **API Endpoint**
 
 **POST /identify**
 🔸 **Request Example**
@@ -103,7 +103,7 @@ node app.js
 
 ---
 
-🧪 ##**Testing Instructions**
+ ## 🧪 **Testing Instructions**
 Use Postman or any API tool:
 
 - Method: POST
@@ -118,7 +118,7 @@ Use Postman or any API tool:
 
 ---
 
-🔄 **Business Logic Summary**
+## 🔄 **Business Logic Summary**
 - No matching contact → Create primary
 
 - Match by email or phone → Create secondary

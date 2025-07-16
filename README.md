@@ -126,12 +126,15 @@ Match by both → No new record
 
 Always return:
 
-1)Oldest primary ID
-
-2)All emails and phone numbers
-
-3)List of secondary contact IDs
+-Oldest primary ID
+-All emails and phone numbers
+-List of secondary contact IDs
 
 ---
+
+👨‍💻 **Author**
+**Kiran Biradar**
+Final Year Engineering Student | Full Stack Developer
+GitHub: Kiran-Biradar27
 
 

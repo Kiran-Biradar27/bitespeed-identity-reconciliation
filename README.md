@@ -31,3 +31,16 @@ Given a combination of `email` and/or `phoneNumber`, the system should:
 
 ## 📁 Project Structure
 
+bitespeed-identity-reconciliation/
+├── app.js
+├── config/
+│ └── db.js
+├── controllers/
+│ └── identifyController.js
+├── models/
+│ └── contactModel.js
+├── routes/
+│ └── identify.js
+├── .env.example
+├── package.json
+└── README.md

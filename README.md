@@ -44,3 +44,37 @@ bitespeed-identity-reconciliation/
 ├── .env.example
 ├── package.json
 └── README.md
+
+##🛠️ Setup Instructions
+
+1. Clone the Repo
+
+git clone https://github.com/Kiran-Biradar27/bitespeed-identity-reconciliation.git
+cd bitespeed-identity-reconciliation
+
+2. Install Dependencies
+npm install
+
+3. Configure Database
+Open MySQL CLI or MySQL Workbench and run the following SQL to set up the Contact table:
+
+CREATE DATABASE bitespeed;
+USE bitespeed;
+
+CREATE TABLE Contact (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  phoneNumber VARCHAR(20),
+  email VARCHAR(255),
+  linkedId INT DEFAULT NULL,
+  linkPrecedence ENUM('primary', 'secondary') NOT NULL,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  deletedAt TIMESTAMP NULL
+);
+
+4. Run the Server
+node app.js
+Server will run at:
+➡️ http://localhost:3000
+
+---

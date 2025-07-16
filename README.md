@@ -106,7 +106,7 @@ node app.js
 🧪 ##**Testing Instructions**
 Use Postman or any API tool:
 
-Method: POST
+- Method: POST
 
 URL: http://localhost:3000/identify
 

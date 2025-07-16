@@ -114,3 +114,24 @@ Body (JSON):
   "email": "abc@example.com",
   "phoneNumber": "1234567890"
 }
+
+---
+
+🔄 **Business Logic Summary**
+No matching contact → Create primary
+
+Match by email or phone → Create secondary
+
+Match by both → No new record
+
+Always return:
+
+1)Oldest primary ID
+
+2)All emails and phone numbers
+
+3)List of secondary contact IDs
+
+---
+
+

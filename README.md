@@ -1,6 +1,6 @@
 # 🧠 Bitespeed Backend Task – Identity Reconciliation
 
-This project implements a backend service for **identity reconciliation**, where email and phone number records are matched, deduplicated, and linked logically to a single user. It helps consolidate fragmented contact data into a unified representation.
+This project implements a backend service for **Identity reconciliation**, where email and phone number records are matched, deduplicated, and linked logically to a single user. It helps consolidate fragmented contact data into a unified representation.
 
 ---
 

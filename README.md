@@ -45,17 +45,17 @@ bitespeed-identity-reconciliation/
 ├── package.json
 └── README.md
 
-##🛠️ Setup Instructions
+##🛠️ **Setup Instructions**
 
-1. Clone the Repo
+1. **Clone the Repo**
 
 git clone https://github.com/Kiran-Biradar27/bitespeed-identity-reconciliation.git
 cd bitespeed-identity-reconciliation
 
-2. Install Dependencies
+2. **Install Dependencies**
 npm install
 
-3. Configure Database
+3. **Configure Database**
 Open MySQL CLI or MySQL Workbench and run the following SQL to set up the Contact table:
 
 CREATE DATABASE bitespeed;
@@ -72,9 +72,45 @@ CREATE TABLE Contact (
   deletedAt TIMESTAMP NULL
 );
 
-4. Run the Server
+4. **Run the Server**
 node app.js
-Server will run at:
+
+**Server will run at**:
 ➡️ http://localhost:3000
 
 ---
+
+📮 ##**API Endpoint**
+**POST /identify**
+🔸 **Request Example**
+{
+  "email": "abc@example.com",
+  "phoneNumber": "1234567890"
+}
+✅ **Sample Response**
+json
+Copy
+Edit
+{
+  "contact": {
+    "primaryContactId": 1,
+    "emails": ["abc@example.com", "new@example.com"],
+    "phoneNumbers": ["1234567890", "9999999999"],
+    "secondaryContactIds": [2, 3]
+  }
+}
+
+---
+
+🧪 ##**Testing Instructions**
+Use Postman or any API tool:
+
+Method: POST
+
+URL: http://localhost:3000/identify
+
+Body (JSON):
+{
+  "email": "abc@example.com",
+  "phoneNumber": "1234567890"
+}

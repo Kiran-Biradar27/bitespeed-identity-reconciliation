@@ -23,7 +23,6 @@ Given a combination of `email` and/or `phoneNumber`, the system should:
 
 - **Backend:** Node.js + Express.js
 - **Database:** MySQL
-- **Driver/ORM:** mysql2
 - **Environment Management:** dotenv
 - **Testing Tool:** Postman
 
